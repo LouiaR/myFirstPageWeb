@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Cuprum|Indie+Flower|Pacifico|Orbitron');
+
+body {
+  	background: linear-gradient(#030202, rgba(157, 94, 66, 0.85)), url(http://static.blog4ever.com/2014/06/776322/big_artfichier_776322_6513012_201611134102968.jpg);
+  	color: #333;
+  	font-size: 62.5%;
+  	background-attachment: fixed;
+  	background-position: center center;
+  	background-size: cover;
+}
+
+.wrapper{
+	background:#fff;
+	box-shadow: 2px 0px 22px rgba(6, 15, 15, 0.74);
+	margin-bottom: 4.5em;
+	overflow: hidden;
+}
+
+.container{
+	color:white;
+	padding: 0;
+}
+/*http://www.leral.net/photo/art/grande/11132609-18479809.jpg?v=*/
+
+header{
+	width:100%;
+	background:rgb(20, 12, 9);
+	text-transform:uppercase;
+	font-family: 'Indie Flower', cursive;
+	padding: 0; 
+}
+.inner-header{
+    padding:4em;
+}
+
+.inner-header:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+.inner-header h1{
+    font-size: 3em;
+    font-weight:bold;
+    float: left;  
+}
+
+ ul{
+	list-style:none;
+}
+
+
+a:focus, a:hover {
+    text-decoration: none;
+    outline: none; 
+    color: #fff;
+    font-weight: bold
+}
+
+nav {
+  float:right;
+}
+
+nav ul{
+	margin-bottom: 0;
+}
+
+nav ul:after{
+  content:"";
+  display:table;
+  clear:both;
+}
+
+nav ul li{
+  float: left;
+  padding: 4em;
+}
+nav ul li a{
+  display:block;
+  text-decoration:none;
+  font-family: 'Cuprum', sans-serif;
+  font-size:2.3em;
+  color:white;
+}
+nav li a:hover{
+  text-decoration:none;
+  font-weight:bold;
+  color:  #c13474;
+}
+
+.jumbotron{
+  background:url(http://www.leral.net/photo/art/grande/11132609-18479809.jpg?v=) no-repeat;
+  background-attachment:fixed;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size:100% cover;
+  min-height:880px;
+  line-height: 1;
+  position:relative;
+}
+
+.jumbotron-text{
+  position: relative;
+  top: 39%;
+  left: 39%;
+  width:50%;
+}
+
+.jumbotron span, .jumbotron blockquote{
+  color: white; 
+  background: rgba(21, 5, 5, 0.26);
+  text-shadow: 0 1px 1px #fff;
+}
+
+.jumbotron span{
+  font-weight:bold;
+  font-size: 2.3em;
+}
+
+.jumbotron blockquote{
+  border-left:none;
+  font-weight:bold;
+  font-size:4em;
+  padding: 10px;
+  margin:0;
+}
+
+.main-content{
+  font-family: arial,helvetica,sans-serif;
+  font-size: 3em;
+  color:#333;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.main-content h2{
+  color: #222;
+  font-weight: bold;
+  font-size: 2em;
+}
+article p{
+  color: #222;
+  font-size: 1.08em;
+}
+
+aside{
+  font-size:0.9em;
+  line-height:1.3em;
+  color:#333;
+  font-weight:bold;
+}
+
+.read-more p{
+  font-size: 1.2em;
+  color: #222;
+}
+
+.read-more a{
+	color: #773815;
+    font-size: 1.05em;
+}
+
+.read-more a:hover{
+	color:blue;
+	font-weight: bold;
+}
+
+
+.footer-bg{
+  color:black;
+  width:100%;
+}
+.footer-ctn{
+  padding:3em;
+  font-family: 'Architects Daughter', cursive;
+}
+
+@media screen and (max-width: 993px){
+	.inner-header {
+    	padding: 4em 0.5em;
+    	margin-left: 1.2em;
+}	
+	.inner-header h1 {
+   		font-size: 2em;
+    }
+    nav ul li a {
+    	font-size: 1.8em;
+    }
+}
+
+@media screen and (max-width: 770px){
+	.img-circle {
+    margin-left: 25%;
+}
+}
+
+@media screen and (max-width: 694px){
+	.inner-header {
+    	padding: 0;
+    	margin: 0;
+}
+	nav ul li{
+		width: 100%;
+		text-align: center;
+		float: none;
+		padding:3em 0;
+	}
+
+	 .inner-header h1{
+		width:100%;
+		display: block;
+		text-align: center;
+		font-size: 4em;
+		float: none;
+	}
+	header.container{
+		width: 100%;
+    background: linear-gradient(#030202, rgba(157, 94, 66, 0.85)), url(http://static.blog4ever.com/2014/06/776322/big_artfichier_776322_6513012_201611134102968.jpg);
+	//background: rgb(163, 101, 66);
+	}
+	nav ul li a{
+	  	width: 100%;
+	  	text-align: center;
+	  	font-size: 3em;
+	  	padding: 0;
+	  	margin: 0;
+}
+	nav{
+  		float: none;
+}
+	nav ul{
+		width: 100%;
+		float: none;
+    padding: 0;
+}
+	nav li:hover{
+  	text-decoration:none;
+  	font-weight:bold;
+ 		background: rgba(100, 65, 47, 0.44);
+ 		color:green;
+}
+
+	nav li a:hover{
+  		color: #fff;
+      font-family: 'Orbitron', sans-serif;
+      font-weight:bold;
+}
+
+	.jumbotron {
+	    background-size: contain;
+    	min-height: 500px;
+      background-attachment:initial;
+}
+
+	.jumbotron span {
+    	font-size: 1em;
+}	    
+	.jumbotron-text {
+    	position: relative;
+     	top: 55%; 
+    	left: 5%;
+    	width: 90%;
+}
+	.jumbotron blockquote {
+		padding: 0;
+	}
+	.img-circle {
+    vertical-align: middle;
+    margin: 0 auto;
+    width:70%;
+}
+  .main-content{
+		margin-top: -95px;
+	}
+	aside p{
+		color: #222;
+    	font-size: 1.08em;
+    	margin:10px 0 20px 0;
+	}
+	aside .text-justify {
+    text-align: initial;
+  }
+  
+    .wrapper{
+      margin-bottom:0;
+    }
+}
+}
